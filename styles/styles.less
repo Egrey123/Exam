@@ -42,6 +42,7 @@ body {
     width: 1650px;
     height: 1000px;
     background-color: rgba(51, 45, 45, 0.184);
+    border-left: 4px solid rgb(204, 202, 202);
     transform: translateY(-1000px);
     h2 {
         margin-left: 30px;
@@ -93,6 +94,42 @@ body {
             }
         }
     }
-    
-
+    .graphs {
+        display: flex;
+        transform: translateY(40px);
+        margin-left: 30px; margin-right: 30px;
+        margin-top: 50px;
+        .graph {
+            margin-right: 200px;
+            width: 275px;
+            height: 220px;
+            background-color: white;
+            padding: 15px;
+            span {
+                // position: absolute;
+                // margin-left: 15px;
+                transform: translateY(-30px);
+                display: block;
+                width: 270px; height: 136px;
+                background-color: red;
+                img {
+                    margin-left: 5px
+                }
+            }
+            hr {
+                 border-color: rgba(0, 0, 0, 0.091);
+            }
+            footer {
+                margin-top: 10px;
+                margin-left: 10px;
+                p {
+                    margin-left: 24px;
+                }
+                img {
+                    position: absolute;
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
 }
